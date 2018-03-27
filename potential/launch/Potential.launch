@@ -1,1 +1,7 @@
-Insert text
+ <launch>
+  <!-- turtlebot_teleop_key already has its own built in velocity smoother -->
+
+  <node pkg="potential" type="Potential.py" name="speed_controller"  output="screen">
+   
+  </node>
+</launch>
